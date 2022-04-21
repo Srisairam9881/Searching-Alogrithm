@@ -3,6 +3,10 @@
 # Linear Search Algorithm with C++ Code | Data Structures & Algorithms
 * a linear search algorithm or sequential search is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched.
 
+* Binary Search Algorithm can be implemented in two ways which are discussed below.
+* 1.Iterative Method
+* 2.Recursive Method
+
 ## 
 ## Linear Search Diagram –
 ![linear-search-diagram](https://user-images.githubusercontent.com/80576654/164423342-e642cc6c-fbde-4274-aebd-051b5fa1c8a6.png)
