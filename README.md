@@ -2,12 +2,8 @@
 
 # Linear Search Algorithm with C++ Code | Data Structures & Algorithms
 * a linear search algorithm or sequential search is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched.
-
-* Binary Search Algorithm can be implemented in two ways which are discussed below.
-* 1.Iterative Method
-* 2.Recursive Method
-
 ## 
+
 ## Linear Search Diagram –
 ![linear-search-diagram](https://user-images.githubusercontent.com/80576654/164423342-e642cc6c-fbde-4274-aebd-051b5fa1c8a6.png)
 * As you can see in the diagram above, we have an integer array data structure with some values. We want to search for the value (98) which is at 5th position in this array. Since we are performing the linear search algorithm we start from the beginning of the array and check for matching values till we find a match.
@@ -46,6 +42,10 @@
 # Binary Search Algorithm with C++ Code | Data Structures & Algorithms
 * Binary search algorithm falls under the category of interval search algorithms. This algorithm is much more efficient compared to linear search algorithm. Binary search only works on sorted data structures. This algorithm repeatedly target the center of the sorted data structure & divide the search space into half till the match is found.
 The time complexity of binary search algorithm is O(Log n).
+* Binary Search Algorithm can be implemented in two ways which are discussed below.
+
+               1.Iterative Method
+               2.Recursive Method
 ##
 ## Binary Search Algorithm Diagram –
 ![binary-search-algorithm-diagram](https://user-images.githubusercontent.com/80576654/164426638-4600bc4e-51d2-4694-8a98-dbf153ca5b9c.png)
