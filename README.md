@@ -43,3 +43,14 @@
 * Binary search algorithm falls under the category of interval search algorithms. This algorithm is much more efficient compared to linear search algorithm. Binary search only works on sorted data structures. This algorithm repeatedly target the center of the sorted data structure & divide the search space into half till the match is found.
 The time complexity of binary search algorithm is O(Log n).
 ##
+### Binary Search Algorithm Diagram –
+![binary-search-algorithm-diagram](https://user-images.githubusercontent.com/80576654/164426638-4600bc4e-51d2-4694-8a98-dbf153ca5b9c.png)
+##
+
+### Working –
+* 1. Search the sorted array by repeatedly dividing the search interval in half
+* 2. Begin with an interval covering the whole array.
+* 3. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half.
+* 4. Otherwise narrow it to the upper half.
+* 5. Repeatedly check until the value is found or the interval is empty.
+##
