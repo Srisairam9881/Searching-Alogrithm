@@ -45,7 +45,6 @@ The time complexity of binary search algorithm is O(Log n).
 ##
 ### Binary Search Algorithm Diagram –
 ![binary-search-algorithm-diagram](https://user-images.githubusercontent.com/80576654/164426638-4600bc4e-51d2-4694-8a98-dbf153ca5b9c.png)
-##
 
 ### Working –
 * 1. Search the sorted array by repeatedly dividing the search interval in half
@@ -54,3 +53,29 @@ The time complexity of binary search algorithm is O(Log n).
 * 4. Otherwise narrow it to the upper half.
 * 5. Repeatedly check until the value is found or the interval is empty.
 ##
+
+### Algorithm to perform Binary Search –(Iterative Method)
+* 1.Take input array, left, right & x
+* 2.START LOOP – while(left greater than or equal to right)
+*              mid = left + (right-left)/2
+*              if(arr[mid]==x) then
+*              return m
+*              else if(arr[mid] less than x) then
+*                    left = m + 1
+*              else
+*                    right= mid – 1
+* 3.END LOOP
+* 4.return -1
+##
+### Algorithm to perform Binary Search –(Recursive Method)
+* binarySearch(arr, x, low, high)
+*    if low > high
+*        return False 
+*    else
+*        mid = (low + high) / 2 
+*       if x == arr[mid]
+*          return mid
+*       else if x > arr[mid]        // x is on the right side
+*            return binarySearch(arr, x, mid + 1, high)
+*       else                               // x is on the right side
+*           return binarySearch(arr, x, low, mid - 1)
