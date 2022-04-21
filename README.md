@@ -79,3 +79,14 @@ The time complexity of binary search algorithm is O(Log n).
 *            return binarySearch(arr, x, mid + 1, high)
 *       else                               // x is on the right side
 *           return binarySearch(arr, x, low, mid - 1)
+##
+
+### Time Complexities
+* Best case complexity:    O(1)
+* Average case complexity: O(log n)
+* Worst case complexity:   O(log n)
+##
+
+### Space Complexity
+* The space complexity of the binary search is O(1).
+##
