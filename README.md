@@ -1,7 +1,9 @@
 # Searching-Alogrithm
 ## Linear Search 
-#
+
 * a linear search algorithm or sequential search is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched.
+##
+
 ## Algorithm to perform Linear Search
  * 1.Take the input array arr[] from user.
  * 2.Take element(x) you want to search in this array from user.
