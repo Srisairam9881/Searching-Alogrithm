@@ -24,3 +24,7 @@
 * 6.STOP
 ### Linear Search Applications
 * For searching operations in smaller arrays (<100 items)
+####
+## Binary Search Algorithm with C++ Code | Data Structures & Algorithms
+* Binary search algorithm falls under the category of interval search algorithms. This algorithm is much more efficient compared to linear search algorithm. Binary search only works on sorted data structures. This algorithm repeatedly target the center of the sorted data structure & divide the search space into half till the match is found.
+The time complexity of binary search algorithm is O(Log n).
