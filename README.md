@@ -78,17 +78,17 @@ The time complexity of binary search algorithm is O(Log n).
 * 4.return -1
 ##
 ### Algorithm to perform Binary Search –(Recursive Method)
-* binarySearch(arr, x, low, high)
-*    if low > high
-*        return False 
-*    else
-*        mid = (low + high) / 2 
-*       if x == arr[mid]
-*          return mid
-*       else if x > arr[mid]        // x is on the right side
-*            return binarySearch(arr, x, mid + 1, high)
-*       else                               // x is on the right side
-*           return binarySearch(arr, x, low, mid - 1)
+          binarySearch(arr, x, low, high)
+          if low > high
+          return False 
+          else
+             mid = (low + high) / 2 
+             if x == arr[mid]
+                return mid
+             else if x > arr[mid]        // x is on the right side
+                 return binarySearch(arr, x, mid + 1, high)
+              else                               // x is on the right side
+                 return binarySearch(arr, x, low, mid - 1)
 ##
 
 ### Time Complexities
