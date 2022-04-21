@@ -24,16 +24,16 @@
 * 6.STOP
 ##
 
-## Linear Search Complexities
-# Time Complexity
+### Linear Search Complexities
+#### Time Complexity
 * Best Case:	  O(1)
 * Average Case:	O(n)
 * Worst Case:	  O(n)
 ##
-# Space Complexity: O(1)
+### Space Complexity: O(1)
 ##
 
-## Linear Search Applications
+### Linear Search Applications
 * For searching operations in smaller arrays (<100 items)
 ##
 
