@@ -90,3 +90,8 @@ The time complexity of binary search algorithm is O(Log n).
 ### Space Complexity
 * The space complexity of the binary search is O(1).
 ##
+
+### Binary Search Applications
+* In libraries of Java, .Net, C++ STL
+* While debugging, the binary search is used to pinpoint the place where the error happens.
+##
