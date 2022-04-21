@@ -15,10 +15,10 @@
  * 3.Set flag variable as -1
  * 4.LOOP : arr[start] -> arr[end]
      
-     if match found i.e arr[current_postion] == x then
-      Print “Match Found at position” current_position.
-      flag = 0
-      abort
+       if match found i.e arr[current_postion] == x then
+       Print “Match Found at position” current_position.
+       flag = 0
+       abort
       
 * 5.After loop check flag variable.
        
