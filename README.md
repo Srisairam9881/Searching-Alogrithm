@@ -14,6 +14,6 @@
  *      flag = 0
  *      abort
 * 5.After loop check flag variable.
-* if flag == -1
-* print “No Match Found”
+*       if flag == -1
+*       print “No Match Found”
 * 6.STOP
