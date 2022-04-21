@@ -22,3 +22,5 @@
 *       if flag == -1
 *       print “No Match Found”
 * 6.STOP
+### Linear Search Applications
+@ For searching operations in smaller arrays (<100 items)
