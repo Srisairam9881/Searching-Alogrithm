@@ -66,7 +66,7 @@ The time complexity of binary search algorithm is O(Log n).
 
 ### Algorithm to perform Binary Search –(Iterative Method)
     1.Take input array, left, right & x
-    2.START LOOP – while(left less thanqual to right)      
+    2.START LOOP – while(left<=right)      
             mid = left + (right-left)/2
             if(arr[mid]==x) then
             return m
