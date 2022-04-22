@@ -47,8 +47,8 @@ The time complexity of binary search algorithm is O(Log n).
    
    <b>1.Iterative Method</b>
    
-   <b>2.Recursive Method</b>
-         
+   <b>2.Recursive Method [The recursive method follows the divide and conquer approach.]</b>
+     
 
 
 ## Binary Search Algorithm Diagram –
